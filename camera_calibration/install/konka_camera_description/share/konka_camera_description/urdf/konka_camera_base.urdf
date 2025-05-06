@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="konka_camera_base">
+  <link
+    name="link_head_pan">
+    <inertial>
+      <origin
+        xyz="0.0128343379827767 -2.88266661278569E-05 -0.016579897253566"
+        rpy="0 0 0" />
+      <mass
+        value="0.0218854437931884" />
+      <inertia
+        ixx="3.00956162186207E-06"
+        ixy="-1.3555942474742E-12"
+        ixz="-2.04240535283129E-07"
+        iyy="5.10107203829794E-06"
+        iyz="1.69922783003176E-11"
+        izz="3.9055180069051E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="./link_head_pan.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="./link_head_pan.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link_head_tlt">
+    <inertial>
+      <origin
+        xyz="0.00925166002343975 4.44089209850063E-16 -0.0102882658329042"
+        rpy="0 0 0" />
+      <mass
+        value="0.0171881171636052" />
+      <inertia
+        ixx="6.0305881439267E-06"
+        ixy="-4.9235403321997E-23"
+        ixz="2.87941007186394E-07"
+        iyy="1.40085634243238E-06"
+        iyz="1.26168559720572E-21"
+        izz="5.52011042265346E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="./link_head_tlt.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="./link_head_tlt.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_head_tilt"
+    type="revolute">
+    <origin
+      xyz="0.0365500000000001 0 -0.03325"
+      rpy="1.5707963267949 1.0471975511965976 -1.5707963267949" />
+    <parent
+      link="link_head_pan" />
+    <child
+      link="link_head_tlt" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="head_camera_link">
+    <inertial>
+      <origin
+        xyz="0.00227858871489964 0.0011131631140866 0.0124721198243393"
+        rpy="0 0 0" />
+      <mass
+        value="0.0456886094025222" />
+      <inertia
+        ixx="2.75479904326443E-05"
+        ixy="4.09785958765499E-07"
+        ixz="7.41196984835484E-09"
+        iyy="4.13530150470521E-06"
+        iyz="-1.46609702551354E-09"
+        izz="2.78344282550023E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="./head_camera_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="./head_camera_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_head_camera_link"
+    type="fixed">
+    <origin
+      xyz="0.0231499999999999 0 0"
+      rpy="-3.14159265358979 0 0" />
+    <parent
+      link="link_head_tlt" />
+    <child
+      link="head_camera_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+    <link name="camera_link">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.000001"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+  </link>
+  <joint
+    name="joint_camera_link"
+    type="fixed">
+    <origin
+      xyz="0.0106 0.0175 0.0125"
+      rpy="0 0 0" />
+    <parent
+      link="head_camera_link" />
+    <child
+      link="camera_link" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+</robot>

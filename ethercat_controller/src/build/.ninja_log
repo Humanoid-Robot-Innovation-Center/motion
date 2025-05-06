@@ -1,0 +1,27 @@
+# ninja log v5
+1	47	1733825412497780137	CMakeFiles/motor.dir/motor_control.c.o	8acbed4eac5f63e2
+1	79	1733734965846815218	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatcoe.c.o	c9b6ff6779ba3d0c
+1	57	1733734965823815046	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercateoe.c.o	413e6b849e6e2dec
+420	434	1733895857106542285	libmotor.a	40d631ac746680a
+1	103	1733734965869815390	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatconfig.c.o	cf22ffddd5927119
+2	78	1733734965844815203	thirdparty/soem/CMakeFiles/soem.dir/oshw/linux/nicdrv.c.o	2020297cc1af4bac
+0	56	1733734965820815023	CMakeFiles/motor.dir/math_ops.c.o	87c2a615793307a4
+489	536	1733734966301818615	thirdparty/cpp-readline/example/cpp-readline-example	edfce711b0a6ddc8
+2	49	1733734965815814986	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatsoe.c.o	df99780fa5a42c0b
+0	57	1733734965822815038	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatbase.c.o	4bdfcb55107a4600
+1	50	1733734965813814971	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatfoe.c.o	4331f6999815a90b
+1	59	1733734965825815061	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatdc.c.o	72b9455f0062d70e
+1	48	1733734965812814964	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatprint.c.o	5e706824abcd3078
+437	480	1733734966246818204	thirdparty/cpp-readline/src/libcpp-readline.so.0.1.0	b4291d7cf83ebee3
+7	244	1733734966010816443	thirdparty/cpp-readline/example/CMakeFiles/cpp-readline-example.dir/main.cpp.o	cb3a05f620933cbe
+2	428	1733825412879780158	CMakeFiles/motor.dir/command.cpp.o	ccd92d8d8097c507
+2	420	1733895857092542284	CMakeFiles/motor.dir/transmit.cpp.o	de9de8e49211a7c1
+7	437	1733734966203817883	thirdparty/cpp-readline/src/CMakeFiles/cpp-readline.dir/Console.cpp.o	dd072f4ee95bb872
+434	474	1733895857145542287	master_stack_test	a2ff5e3f76ca0f6b
+480	489	1733734966246818204	thirdparty/cpp-readline/src/libcpp-readline.so.1	81abfc284977256
+480	489	1733734966246818204	thirdparty/cpp-readline/src/libcpp-readline.so	81abfc284977256
+2	43	1733734965805814911	thirdparty/soem/CMakeFiles/soem.dir/osal/linux/osal.c.o	32a13cf3c65e4c43
+5	45	1733734965810814949	thirdparty/soem/CMakeFiles/soem.dir/oshw/linux/oshw.c.o	1c5c3721b33d119b
+2	393	1733825412844780156	CMakeFiles/master_stack_test.dir/main.cpp.o	49436856368b8be7
+110	126	1733734965892815561	thirdparty/soem/libsoem.so	bd0e59f12bcfab4c
+1	110	1733734965875815434	thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatmain.c.o	e53b7b15fb55631b

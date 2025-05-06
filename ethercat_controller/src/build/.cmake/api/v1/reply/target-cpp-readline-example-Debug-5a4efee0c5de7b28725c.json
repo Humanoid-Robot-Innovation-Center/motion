@@ -1,0 +1,136 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "thirdparty/cpp-readline/example/cpp-readline-example"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"thirdparty/cpp-readline/example/CMakeLists.txt",
+			"thirdparty/cpp-readline/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g   -std=c++11 -Wall -Werror -pedantic -Weffc++"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "cpp-readline::@bfc8eecc08c6017c78d6"
+		}
+	],
+	"id" : "cpp-readline-example::@e0bee41eb6a978b00845",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/ubuntu/ros2_ws/EtherCAT/build/thirdparty/cpp-readline/src",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "thirdparty/cpp-readline/src/libcpp-readline.so.0.1.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lreadline",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "cpp-readline-example",
+	"nameOnDisk" : "cpp-readline-example",
+	"paths" : 
+	{
+		"build" : "thirdparty/cpp-readline/example",
+		"source" : "thirdparty/cpp-readline/example"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/cpp-readline/example/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

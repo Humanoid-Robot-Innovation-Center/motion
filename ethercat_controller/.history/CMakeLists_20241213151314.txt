@@ -1,0 +1,60 @@
+cmake_minimum_required(VERSION 3.5)
+project(ethercat_controller)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+# Find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(Boost REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(emotor_interfaces REQUIRED)  # 确保找到了定义消息的包
+
+include_directories(
+  include
+  ${CMAKE_CURRENT_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/thirdparty/soem/soem
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/thirdparty/soem/osal
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/thirdparty/soem/osal/linux
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/thirdparty/soem/oshw/linux
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/thirdparty/cpp-readline/src
+)
+
+# Declare a C++ library
+add_library(${PROJECT_NAME}_lib
+  src/motor_control.c
+  src/math_ops.c
+  src/transmit.cpp
+)
+
+ament_target_dependencies(${PROJECT_NAME}_lib
+  rclcpp
+  Boost
+  std_msgs
+  builtin_interfaces
+  emotor_interfaces
+)
+
+# Declare a C++ executable
+add_executable(${PROJECT_NAME}_node src/ethercat_controller.cpp)
+target_link_libraries(${PROJECT_NAME}_node ${PROJECT_NAME}_lib)
+ament_target_dependencies(${PROJECT_NAME}_node
+  rclcpp
+  emotor_interfaces
+)
+
+# Install targets
+install(TARGETS ${PROJECT_NAME}_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY include/
+  DESTINATION include
+)
+
+ament_package()

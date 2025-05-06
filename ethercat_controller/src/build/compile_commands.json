@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -I/home/ubuntu/anaconda3/include -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src -g -o CMakeFiles/motor.dir/motor_control.c.o -c /home/ubuntu/ros2_ws/EtherCAT/motor_control.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/motor_control.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -I/home/ubuntu/anaconda3/include -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src -g -o CMakeFiles/motor.dir/math_ops.c.o -c /home/ubuntu/ros2_ws/EtherCAT/math_ops.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/math_ops.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/g++ -I/home/ubuntu/anaconda3/include -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src -g -o CMakeFiles/motor.dir/transmit.cpp.o -c /home/ubuntu/ros2_ws/EtherCAT/transmit.cpp",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/transmit.cpp"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/g++ -I/home/ubuntu/anaconda3/include -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src -g -o CMakeFiles/motor.dir/command.cpp.o -c /home/ubuntu/ros2_ws/EtherCAT/command.cpp",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/command.cpp"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/g++ -I/home/ubuntu/anaconda3/include -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src -g -o CMakeFiles/master_stack_test.dir/main.cpp.o -c /home/ubuntu/ros2_ws/EtherCAT/main.cpp",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatbase.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatbase.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatbase.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatcoe.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatcoe.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatcoe.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatconfig.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatconfig.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatconfig.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatdc.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatdc.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatdc.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercateoe.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercateoe.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercateoe.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatfoe.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatfoe.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatfoe.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatmain.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatmain.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatmain.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatprint.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatprint.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatprint.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/soem/ethercatsoe.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatsoe.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem/ethercatsoe.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/osal/linux/osal.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux/osal.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux/osal.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/oshw/linux/nicdrv.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux/nicdrv.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux/nicdrv.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/gcc -Dsoem_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/soem -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/osal/linux -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux -g -fPIC -o thirdparty/soem/CMakeFiles/soem.dir/oshw/linux/oshw.c.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux/oshw.c",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/soem/oshw/linux/oshw.c"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/g++ -Dcpp_readline_EXPORTS -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src -g -fPIC   -std=c++11 -Wall -Werror -pedantic -Weffc++ -o thirdparty/cpp-readline/src/CMakeFiles/cpp-readline.dir/Console.cpp.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src/Console.cpp",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src/Console.cpp"
+},
+{
+  "directory": "/home/ubuntu/ros2_ws/EtherCAT/build",
+  "command": "/usr/bin/g++ -I/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/src -g   -std=c++11 -Wall -Werror -pedantic -Weffc++ -o thirdparty/cpp-readline/example/CMakeFiles/cpp-readline-example.dir/main.cpp.o -c /home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/example/main.cpp",
+  "file": "/home/ubuntu/ros2_ws/EtherCAT/thirdparty/cpp-readline/example/main.cpp"
+}
+]

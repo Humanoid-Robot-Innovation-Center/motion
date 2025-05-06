@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/master_stack_test.dir/main.cpp.o -o master_stack_test  -Wl,-rpath,/home/ubuntu/ros2_ws/EtherCAT/build/thirdparty/soem:/home/ubuntu/ros2_ws/EtherCAT/build/thirdparty/cpp-readline/src -lm libmotor.a thirdparty/soem/libsoem.so thirdparty/cpp-readline/src/libcpp-readline.so.0.1.0 -lm -lpthread -lrt /usr/lib/x86_64-linux-gnu/libreadline.so 

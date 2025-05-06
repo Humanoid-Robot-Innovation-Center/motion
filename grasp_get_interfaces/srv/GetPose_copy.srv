@@ -1,0 +1,8 @@
+# Request
+string calculate_grasp_poses
+
+---
+# Response
+bool success
+string error_message
+geometry_msgs/Pose[] poses

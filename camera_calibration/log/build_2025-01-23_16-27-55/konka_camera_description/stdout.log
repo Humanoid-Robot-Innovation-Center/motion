@@ -1,0 +1,54 @@
+running egg_info
+creating ../../build/konka_camera_description/konka_camera_description.egg-info
+writing ../../build/konka_camera_description/konka_camera_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/konka_camera_description/konka_camera_description.egg-info/dependency_links.txt
+writing requirements to ../../build/konka_camera_description/konka_camera_description.egg-info/requires.txt
+writing top-level names to ../../build/konka_camera_description/konka_camera_description.egg-info/top_level.txt
+writing manifest file '../../build/konka_camera_description/konka_camera_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/konka_camera_description/konka_camera_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/konka_camera_description/konka_camera_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/konka/data/code/camera_calibration/build/konka_camera_description/build
+creating /home/konka/data/code/camera_calibration/build/konka_camera_description/build/lib
+creating /home/konka/data/code/camera_calibration/build/konka_camera_description/build/lib/konka_camera_description
+copying konka_camera_description/__init__.py -> /home/konka/data/code/camera_calibration/build/konka_camera_description/build/lib/konka_camera_description
+running install
+running install_lib
+creating /home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages/konka_camera_description
+copying /home/konka/data/code/camera_calibration/build/konka_camera_description/build/lib/konka_camera_description/__init__.py -> /home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages/konka_camera_description
+byte-compiling /home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages/konka_camera_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/konka/data/code/camera_calibration/install/konka_camera_description/share/ament_index
+creating /home/konka/data/code/camera_calibration/install/konka_camera_description/share/ament_index/resource_index
+creating /home/konka/data/code/camera_calibration/install/konka_camera_description/share/ament_index/resource_index/packages
+copying resource/konka_camera_description -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description
+creating /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/launch
+copying launch/display_rviz2.launch.py -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/launch
+creating /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_roll.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_right_finger_tip.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_right_wheel.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_yaw.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_arm_l0.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_head_tlt.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_head_pan.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_head_pitch.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_gripper_camera.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_left_finger_tip.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_lift.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/base_link.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_left_wheel.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/head_camera_link.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_mast.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_left_finger.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_pitch.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_arm_l2.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_right_finger.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/konka_camera_base.urdf -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+copying urdf/link_arm_l1.STL -> /home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/urdf
+running install_egg_info
+Copying ../../build/konka_camera_description/konka_camera_description.egg-info to /home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages/konka_camera_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/konka/data/code/camera_calibration/build/konka_camera_description/install.log'

@@ -1,0 +1,181 @@
+[0.272s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.272s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb7a158a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb7a14a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb7a14a60>>)[0m
+[0.814s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.814s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.814s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.814s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.814s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/konka/data/code/camera_calibration'
+[0.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extension 'ignore'
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extension 'ignore_ament_install'
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extensions ['colcon_pkg']
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extension 'colcon_pkg'
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extensions ['colcon_meta']
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extension 'colcon_meta'
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extensions ['ros']
+[0.846s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka2_description) by extension 'ros'
+[0.852s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/konka2_description' with type 'ros.ament_python' and name 'konka2_description'[0m
+[0.852s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extensions ['ignore', 'ignore_ament_install']
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extension 'ignore'
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extension 'ignore_ament_install'
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extensions ['colcon_pkg']
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extension 'colcon_pkg'
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extensions ['colcon_meta']
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extension 'colcon_meta'
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extensions ['ros']
+[0.853s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/konka_camera_description) by extension 'ros'
+[0.854s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/konka_camera_description' with type 'ros.ament_python' and name 'konka_camera_description'[0m
+[0.854s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.855s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.855s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.855s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.855s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.891s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.891s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.898s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/konka/data/code/camera_calibration/install[0m
+[0.901s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 30 installed packages in /home/konka/data/code/navigation_ws/install[0m
+[0.903s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 10 installed packages in /home/konka/data/code/driver_ws/install[0m
+[0.904s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 11 installed packages in /home/konka/data/code/motion/install[0m
+[0.905s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/konka/install[0m
+[0.907s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 378 installed packages in /opt/ros/humble[0m
+[0.913s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'cmake_args' from command line to 'None'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'cmake_target' from command line to 'None'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.006s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'konka2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/konka/data/code/camera_calibration/build/konka2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/konka/data/code/camera_calibration/install/konka2_description', 'merge_install': False, 'path': '/home/konka/data/code/camera_calibration/src/konka2_description', 'symlink_install': False, 'test_result_base': None}[0m
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'cmake_args' from command line to 'None'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'cmake_target' from command line to 'None'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'konka_camera_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.007s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'konka_camera_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/konka/data/code/camera_calibration/build/konka_camera_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/konka/data/code/camera_calibration/install/konka_camera_description', 'merge_install': False, 'path': '/home/konka/data/code/camera_calibration/src/konka_camera_description', 'symlink_install': False, 'test_result_base': None}[0m
+[1.008s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.010s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.010s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/konka/data/code/camera_calibration/src/konka2_description' with build type 'ament_python'
+[1.011s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('konka2_description', 'ament_prefix_path')
+[1.016s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/hook/ament_prefix_path.ps1'
+[1.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/hook/ament_prefix_path.dsv'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/hook/ament_prefix_path.sh'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.036s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/konka/data/code/camera_calibration/src/konka_camera_description' with build type 'ament_python'
+[1.036s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('konka_camera_description', 'ament_prefix_path')
+[1.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/hook/ament_prefix_path.ps1'
+[1.038s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/hook/ament_prefix_path.dsv'
+[1.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/hook/ament_prefix_path.sh'
+[1.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.040s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.793s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/konka/data/code/camera_calibration/src/konka2_description'
+[2.794s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.794s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[4.558s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/konka/data/code/camera_calibration/src/konka_camera_description'
+[4.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.559s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.399s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/konka/data/code/camera_calibration/src/konka2_description': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka2_description build --build-base /home/konka/data/code/camera_calibration/build/konka2_description/build install --record /home/konka/data/code/camera_calibration/build/konka2_description/install.log --single-version-externally-managed install_data[0m
+[7.444s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/konka/data/code/camera_calibration/src/konka_camera_description': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka_camera_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka_camera_description build --build-base /home/konka/data/code/camera_calibration/build/konka_camera_description/build install --record /home/konka/data/code/camera_calibration/build/konka_camera_description/install.log --single-version-externally-managed install_data[0m
+[11.352s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/konka/data/code/camera_calibration/src/konka2_description' returned '0': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka2_description build --build-base /home/konka/data/code/camera_calibration/build/konka2_description/build install --record /home/konka/data/code/camera_calibration/build/konka2_description/install.log --single-version-externally-managed install_data[0m
+[11.362s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka2_description' for CMake module files
+[11.363s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka2_description' for CMake config files
+[11.367s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka2_description/lib'
+[11.367s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka2_description/bin'
+[11.368s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka2_description/lib/pkgconfig/konka2_description.pc'
+[11.368s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages'
+[11.369s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('konka2_description', 'pythonpath')
+[11.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/hook/pythonpath.ps1'
+[11.371s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/hook/pythonpath.dsv'
+[11.373s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/hook/pythonpath.sh'
+[11.375s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka2_description/bin'
+[11.375s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(konka2_description)
+[11.376s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/package.ps1'
+[11.381s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/package.dsv'
+[11.383s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/package.sh'
+[11.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/package.bash'
+[11.386s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/package.zsh'
+[11.387s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/konka/data/code/camera_calibration/install/konka2_description/share/colcon-core/packages/konka2_description)
+[11.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka_camera_description' for CMake module files
+[11.393s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka_camera_description' for CMake config files
+[11.393s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/konka/data/code/camera_calibration/src/konka_camera_description' returned '0': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka_camera_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka_camera_description build --build-base /home/konka/data/code/camera_calibration/build/konka_camera_description/build install --record /home/konka/data/code/camera_calibration/build/konka_camera_description/install.log --single-version-externally-managed install_data[0m
+[11.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka_camera_description/lib'
+[11.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka_camera_description/bin'
+[11.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka_camera_description/lib/pkgconfig/konka_camera_description.pc'
+[11.396s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages'
+[11.396s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('konka_camera_description', 'pythonpath')
+[11.397s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/hook/pythonpath.ps1'
+[11.398s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/hook/pythonpath.dsv'
+[11.399s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/hook/pythonpath.sh'
+[11.400s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/konka/data/code/camera_calibration/install/konka_camera_description/bin'
+[11.401s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(konka_camera_description)
+[11.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/package.ps1'
+[11.403s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/package.dsv'
+[11.404s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/package.sh'
+[11.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/package.bash'
+[11.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/konka/data/code/camera_calibration/install/konka_camera_description/share/konka_camera_description/package.zsh'
+[11.407s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/konka/data/code/camera_calibration/install/konka_camera_description/share/colcon-core/packages/konka_camera_description)
+[11.408s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[11.409s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[11.409s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[11.410s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[11.428s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.429s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.429s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[11.464s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[11.466s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/konka/data/code/camera_calibration/install/local_setup.ps1'
+[11.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/konka/data/code/camera_calibration/install/_local_setup_util_ps1.py'
+[11.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/konka/data/code/camera_calibration/install/setup.ps1'
+[11.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/konka/data/code/camera_calibration/install/local_setup.sh'
+[11.483s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/konka/data/code/camera_calibration/install/_local_setup_util_sh.py'
+[11.484s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/konka/data/code/camera_calibration/install/setup.sh'
+[11.493s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/konka/data/code/camera_calibration/install/local_setup.bash'
+[11.494s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/konka/data/code/camera_calibration/install/setup.bash'
+[11.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/konka/data/code/camera_calibration/install/local_setup.zsh'
+[11.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/konka/data/code/camera_calibration/install/setup.zsh'

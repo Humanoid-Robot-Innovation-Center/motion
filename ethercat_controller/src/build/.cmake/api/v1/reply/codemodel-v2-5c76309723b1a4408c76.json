@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "thirdparty",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-thirdparty-Debug-ca18efa0333c95a683e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "thirdparty"
+				},
+				{
+					"build" : "thirdparty/soem",
+					"jsonFile" : "directory-thirdparty.soem-Debug-04be4267f1161387e446.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "thirdparty/soem",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "thirdparty/cpp-readline",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"jsonFile" : "directory-thirdparty.cpp-readline-Debug-ac122a88564ad0aea249.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "thirdparty/cpp-readline"
+				},
+				{
+					"build" : "thirdparty/cpp-readline/src",
+					"jsonFile" : "directory-thirdparty.cpp-readline.src-Debug-a897f1ec6b27aed85b99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "thirdparty/cpp-readline/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "thirdparty/cpp-readline/example",
+					"jsonFile" : "directory-thirdparty.cpp-readline.example-Debug-f634db61a77011bc7629.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "thirdparty/cpp-readline/example",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "MasterStack",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SOEM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "cpp-readline",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "cpp-readline::@bfc8eecc08c6017c78d6",
+					"jsonFile" : "target-cpp-readline-Debug-cba455229e4f69c941fb.json",
+					"name" : "cpp-readline",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cpp-readline-example::@e0bee41eb6a978b00845",
+					"jsonFile" : "target-cpp-readline-example-Debug-5a4efee0c5de7b28725c.json",
+					"name" : "cpp-readline-example",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "master_stack_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-master_stack_test-Debug-0a32532bcbd826a852a1.json",
+					"name" : "master_stack_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor-Debug-f56f1af2e236dee97a79.json",
+					"name" : "motor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "soem::@cade6b9d9e6f31ac9b5e",
+					"jsonFile" : "target-soem-Debug-bb8f78218caee417014e.json",
+					"name" : "soem",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/EtherCAT/build",
+		"source" : "/home/ubuntu/ros2_ws/EtherCAT"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
