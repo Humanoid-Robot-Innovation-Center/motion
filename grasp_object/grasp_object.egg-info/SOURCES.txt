@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+grasp_object/__init__.py
+grasp_object.egg-info/PKG-INFO
+grasp_object.egg-info/SOURCES.txt
+grasp_object.egg-info/dependency_links.txt
+grasp_object.egg-info/requires.txt
+grasp_object.egg-info/top_level.txt
+grasp_object.egg-info/zip-safe
+resource/grasp_object
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
