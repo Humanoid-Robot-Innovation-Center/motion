@@ -1,0 +1,13 @@
+# Request
+string task			# 先反馈，后规划 "get_joint_states"，"generate_motion"
+geometry_msgs/Pose target_pose  # 目标位姿
+
+---
+# Response
+bool is_success                 # 规划是否成功
+string failure_reason           # 失败原因
+sensor_msgs/JointState joint_trajectory  # 生成的关节轨迹
+float32[] ee_pos_x		#末端轨迹yfloat32[] ee_pos_x
+float32[] ee_pos_y
+float32[] ee_pos_z
+

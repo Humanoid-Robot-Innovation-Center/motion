@@ -1,0 +1,10 @@
+# Request
+string calculate_grasp_poses
+string cmd_json
+
+---
+# Response
+bool success
+string error_message
+geometry_msgs/Pose pose
+

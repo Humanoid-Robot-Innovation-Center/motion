@@ -1,0 +1,6 @@
+sensor_msgs/JointState trajectory
+int32 control_rate
+---
+bool is_success
+string failure_reason         # 失败原因
+

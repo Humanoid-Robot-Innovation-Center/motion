@@ -1,0 +1,5 @@
+# 请求部分为空
+---
+
+# 响应部分为jointState
+sensor_msgs/JointState joint_state

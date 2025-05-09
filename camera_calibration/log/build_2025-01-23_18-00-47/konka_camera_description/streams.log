@@ -1,0 +1,20 @@
+[6.748s] Invoking command in '/home/konka/data/code/camera_calibration/src/konka_camera_description': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka_camera_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka_camera_description build --build-base /home/konka/data/code/camera_calibration/build/konka_camera_description/build install --record /home/konka/data/code/camera_calibration/build/konka_camera_description/install.log --single-version-externally-managed install_data
+[8.822s] running egg_info
+[8.957s] writing ../../build/konka_camera_description/konka_camera_description.egg-info/PKG-INFO
+[9.047s] writing dependency_links to ../../build/konka_camera_description/konka_camera_description.egg-info/dependency_links.txt
+[9.489s] writing requirements to ../../build/konka_camera_description/konka_camera_description.egg-info/requires.txt
+[9.579s] writing top-level names to ../../build/konka_camera_description/konka_camera_description.egg-info/top_level.txt
+[9.919s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[9.921s] reading manifest file '../../build/konka_camera_description/konka_camera_description.egg-info/SOURCES.txt'
+[9.924s] writing manifest file '../../build/konka_camera_description/konka_camera_description.egg-info/SOURCES.txt'
+[9.924s] running build
+[10.115s] running build_py
+[10.115s] running install
+[10.126s] running install_lib
+[10.264s] running install_data
+[10.265s] running install_egg_info
+[10.403s] removing '/home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages/konka_camera_description-0.0.0-py3.10.egg-info' (and everything under it)
+[10.404s] Copying ../../build/konka_camera_description/konka_camera_description.egg-info to /home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages/konka_camera_description-0.0.0-py3.10.egg-info
+[10.405s] running install_scripts
+[10.740s] writing list of installed files to '/home/konka/data/code/camera_calibration/build/konka_camera_description/install.log'
+[10.914s] Invoked command in '/home/konka/data/code/camera_calibration/src/konka_camera_description' returned '0': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka_camera_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka_camera_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka_camera_description build --build-base /home/konka/data/code/camera_calibration/build/konka_camera_description/build install --record /home/konka/data/code/camera_calibration/build/konka_camera_description/install.log --single-version-externally-managed install_data

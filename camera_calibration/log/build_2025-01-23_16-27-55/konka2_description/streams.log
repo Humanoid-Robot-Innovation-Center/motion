@@ -1,0 +1,57 @@
+[6.581s] Invoking command in '/home/konka/data/code/camera_calibration/src/konka2_description': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka2_description build --build-base /home/konka/data/code/camera_calibration/build/konka2_description/build install --record /home/konka/data/code/camera_calibration/build/konka2_description/install.log --single-version-externally-managed install_data
+[8.489s] running egg_info
+[8.490s] creating ../../build/konka2_description/konka2_description.egg-info
+[8.615s] writing ../../build/konka2_description/konka2_description.egg-info/PKG-INFO
+[8.697s] writing dependency_links to ../../build/konka2_description/konka2_description.egg-info/dependency_links.txt
+[9.103s] writing requirements to ../../build/konka2_description/konka2_description.egg-info/requires.txt
+[9.184s] writing top-level names to ../../build/konka2_description/konka2_description.egg-info/top_level.txt
+[9.184s] writing manifest file '../../build/konka2_description/konka2_description.egg-info/SOURCES.txt'
+[9.727s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[9.731s] reading manifest file '../../build/konka2_description/konka2_description.egg-info/SOURCES.txt'
+[9.732s] writing manifest file '../../build/konka2_description/konka2_description.egg-info/SOURCES.txt'
+[9.733s] running build
+[9.915s] running build_py
+[9.915s] creating /home/konka/data/code/camera_calibration/build/konka2_description/build
+[9.915s] creating /home/konka/data/code/camera_calibration/build/konka2_description/build/lib
+[9.915s] creating /home/konka/data/code/camera_calibration/build/konka2_description/build/lib/konka2_description
+[9.915s] copying konka2_description/__init__.py -> /home/konka/data/code/camera_calibration/build/konka2_description/build/lib/konka2_description
+[9.915s] running install
+[9.926s] running install_lib
+[10.055s] creating /home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages/konka2_description
+[10.056s] copying /home/konka/data/code/camera_calibration/build/konka2_description/build/lib/konka2_description/__init__.py -> /home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages/konka2_description
+[10.057s] byte-compiling /home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages/konka2_description/__init__.py to __init__.cpython-310.pyc
+[10.061s] running install_data
+[10.061s] creating /home/konka/data/code/camera_calibration/install/konka2_description/share/ament_index
+[10.062s] creating /home/konka/data/code/camera_calibration/install/konka2_description/share/ament_index/resource_index
+[10.062s] creating /home/konka/data/code/camera_calibration/install/konka2_description/share/ament_index/resource_index/packages
+[10.062s] copying resource/konka2_description -> /home/konka/data/code/camera_calibration/install/konka2_description/share/ament_index/resource_index/packages
+[10.063s] copying package.xml -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description
+[10.063s] creating /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/launch
+[10.063s] copying launch/display_rviz2.launch.py -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/launch
+[10.063s] creating /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.064s] copying urdf/link_roll.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.078s] copying urdf/link_right_finger_tip.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.078s] copying urdf/link_right_wheel.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.079s] copying urdf/link_yaw.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.094s] copying urdf/link_arm_l0.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.103s] copying urdf/link_head_tlt.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.103s] copying urdf/link_head_pan.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.111s] copying urdf/link_head_pitch.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.117s] copying urdf/link_gripper_camera.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.121s] copying urdf/link_left_finger_tip.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.121s] copying urdf/link_lift.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.126s] copying urdf/base_link.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.127s] copying urdf/link_left_wheel.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.128s] copying urdf/head_camera_link.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.130s] copying urdf/link_mast.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.164s] copying urdf/link_left_finger.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.165s] copying urdf/link_pitch.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.175s] copying urdf/link_arm_l2.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.175s] copying urdf/konka_without_head_camera.urdf -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.175s] copying urdf/link_right_finger.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.176s] copying urdf/link_arm_l1.STL -> /home/konka/data/code/camera_calibration/install/konka2_description/share/konka2_description/urdf
+[10.176s] running install_egg_info
+[10.305s] Copying ../../build/konka2_description/konka2_description.egg-info to /home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages/konka2_description-0.0.0-py3.10.egg-info
+[10.307s] running install_scripts
+[10.609s] writing list of installed files to '/home/konka/data/code/camera_calibration/build/konka2_description/install.log'
+[10.791s] Invoked command in '/home/konka/data/code/camera_calibration/src/konka2_description' returned '0': PYTHONPATH=/home/konka/data/code/camera_calibration/build/konka2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konka/data/code/camera_calibration/install/konka2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/konka2_description build --build-base /home/konka/data/code/camera_calibration/build/konka2_description/build install --record /home/konka/data/code/camera_calibration/build/konka2_description/install.log --single-version-externally-managed install_data

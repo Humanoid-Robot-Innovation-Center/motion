@@ -1,0 +1,11 @@
+# goal
+sensor_msgs/JointState trajectory
+int32 control_rate
+---
+# result
+bool is_success
+string failure_reason         # 失败原因
+---
+# feedback
+float32 progress_percentage # 轨迹执行进度
+
