@@ -166,6 +166,8 @@ class JointTrajectoryAction:
             self.stop_trajectory()
             return FollowJointTrajectory.Result()
         
+        self.base_z_prev = 0
+        
         while len(velocity_trajectory) != 0 and cmd_idx < len(velocity_trajectory):
 
             if goal_id != self.latest_goal_id:
@@ -203,9 +205,11 @@ class JointTrajectoryAction:
             for i, name in enumerate(joint_trajectory["joint_names"]):
                 if name == 'base_z':
                     base_z_pos = joint_positions[i]
+                    rel_move_z = base_z_pos - self.base_z_prev
+                    self.base_z_prev = base_z_pos
                     base_z_action = create_default_motor_msg()
                     base_z_action.mode = 1
-                    w,x,y,z = euler_to_quaternion(0, 0, base_z_pos)
+                    w,x,y,z = euler_to_quaternion(0, 0, rel_move_z)
                     base_z_action.pose.orientation.w = float(w)
                     base_z_action.pose.orientation.x = float(x)
                     base_z_action.pose.orientation.y = float(y)
@@ -214,7 +218,7 @@ class JointTrajectoryAction:
                     # base_z_action.pose.orientation.x,
                     # base_z_action.pose.orientation.y,
                     # base_z_action.pose.orientation.z = euler_to_quaternion(0, 0, base_z_pos)
-                    # self.node.base_z_pos_publisher.publish(base_z_action)
+                    self.node.base_z_vel_publisher.publish(base_z_action)
                     # print("[debug]base_z_orient_z:", base_z_action.pose.orientation.z)
                     print("[debug]base_z:", base_z_pos)
                 elif name == 'joint_lift':

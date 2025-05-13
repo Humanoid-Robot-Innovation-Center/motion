@@ -38,7 +38,7 @@ class GonggaDriver(Node):
     def ros_setup(self):
         # create topic subscribed by motor driver node
         self.base_z_pos_publisher = self.create_publisher(VelAndPose, "base_z_pos", 10)
-        self.base_z_vel_publisher = self.create_publisher(VelAndPose, "base_z_vel", 10) # todo:修改话题为二代机底盘位置控制的话题
+        self.base_z_vel_publisher = self.create_publisher(VelAndPose, "cmd_vel_pose", 10) # todo:修改话题为二代机底盘位置控制的话题
         self.wrist_yaw_publisher = self.create_publisher(VelAndPose, "wrist_yaw", 10)
         self.wrist_pitch_publisher = self.create_publisher(VelAndPose, "wrist_pitch", 10)
         self.wrist_roll_publisher = self.create_publisher(VelAndPose, "wrist_roll", 10)
