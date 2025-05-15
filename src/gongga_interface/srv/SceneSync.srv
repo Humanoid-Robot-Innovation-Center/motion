@@ -1,0 +1,10 @@
+# 请求部分 - 导航端发送基础场景信息
+string scene_id                # 场景的唯一标识
+string scene_graph             # 场景图的结构（如JSON字符串）
+float64 timestamp              # 场景信息的时间戳
+
+---
+# 响应部分 - 大脑节点返回解析后的信息
+int32 status_code              # 处理状态码：0=成功，1=部分成功，2=失败
+
+

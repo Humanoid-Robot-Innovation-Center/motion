@@ -1,0 +1,8 @@
+# Request部分 - 发送指令
+string command_type  # 指令类型，例如 "stop", "restart"
+string target_cmd     # 目标指令名称
+
+---
+# Response部分 - 返回反馈
+string result        # 结果内容，例如 "success" 或 JSON 格式的详细结果
+string reason        # 原因描述，例如 "Invalid target ID" 或更详细的错误信息

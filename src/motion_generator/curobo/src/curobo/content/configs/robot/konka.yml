@@ -1,0 +1,220 @@
+##
+##
+##=================================================================================================
+##
+## yml file for curobo motion generation for konka robot designed by Chengdu Humanoid Innovation Center
+##
+##=================================================================================================
+##
+##
+##
+
+robot_cfg:
+   kinematics:
+    usd_path: ""
+    usd_robot_root: "/robot"
+    isaac_usd_path: ""
+    use_usd_kinematics: False
+
+    usd_flip_joint_limits: []
+    urdf_path: "robot/konka_description/urdf/konka_motion.urdf"
+    asset_root_path: "robot/konka_description"
+    # asset_root_path: "robot/hello_robot_description_1"
+    base_link: "ground_link"
+    ee_link: "grasp_center"
+    link_names: null
+    lock_joints: {"joint_left_finger": 0.0, "joint_right_finger": 0.0}
+    extra_links: null
+    usd_flip_joints: {}
+    collision_link_names: ["base_link","link_mast","link_lift","link_arm_l2","link_arm_l1","link_arm_l0","link_yaw","link_pitch","link_roll","link_gripper_camera", "link_left_finger", "link_right_finger"]
+
+    collision_spheres:
+      base_link:
+          - "center": [ 0.059, -0.119, 0.0 ]
+            "radius": 0.07
+          - "center": [ 0.087, -0.0, 0.0 ]
+            "radius": 0.07
+          - "center": [ 0.067, 0.124, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.05, -0.127, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.036, 0.006, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.04, 0.13, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.146, 0.0, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.15, -0.126, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.15, 0.127, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.264, 0.0, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.266, -0.116, 0.0 ]
+            "radius": 0.07
+          - "center": [ -0.268, 0.123, 0.0 ]
+            "radius": 0.07
+          - "center": [ 0.045, -0.119, 0.066 ]
+            "radius": 0.07
+          - "center": [ -0.03, -0.126, 0.088 ]
+            "radius": 0.07
+          - "center": [ -0.109, -0.137, 0.093 ]
+            "radius": 0.07
+          - "center": [ -0.187, -0.135, 0.088 ]
+            "radius": 0.07
+          - "center": [ -0.261, -0.11, 0.079 ]
+            "radius": 0.07
+          - "center": [ 0.0, 0.131, 0.09 ]
+            "radius": 0.07
+          - "center": [ -0.094, 0.142, 0.079 ]
+            "radius": 0.07
+          - "center": [ -0.199, 0.146, 0.079 ]
+            "radius": 0.07
+          - "center": [ -0.252, 0.1, 0.079 ]
+            "radius": 0.07
+          - "center": [ -0.275, 0.0, 0.079 ]
+            "radius": 0.07
+          - "center": [ 0.0, 0.126, 0.123 ]
+            "radius": 0.07
+          - "center": [ -0.0, -0.136, 0.129 ]
+            "radius": 0.07
+      link_mast:
+          - "center": [ 0.0, 0.0, 0.207 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.0, 0.362 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.0, 0.529 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.0, 0.678 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.001, 0.851 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.001, 1.009 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.001, 1.166 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.001, 1.344 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.001, 1.447 ]
+            "radius": 0.1
+          - "center": [ 0.0, 0.0, 0.079 ]
+            "radius": 0.1
+      link_lift:
+          - "center": [ -0.083, -0.036, 0.079 ]
+            "radius": 0.05
+          - "center": [ -0.079, -0.035, 0.166 ]
+            "radius": 0.05
+          - "center": [ -0.139, -0.039, 0.079 ]
+            "radius": 0.05
+          - "center": [ -0.139, -0.037, 0.161 ]
+            "radius": 0.05
+          - "center": [ -0.197, -0.035, 0.164 ]
+            "radius": 0.05
+          - "center": [ -0.198, -0.038, 0.079 ]
+            "radius": 0.05
+          - "center": [ -0.0, -0.044, 0.158 ]
+            "radius": 0.05
+          - "center": [ -0.0, -0.039, 0.079 ]
+            "radius": 0.05
+      link_arm_l2:
+          - "center": [ -0.0, -0.009, -0.201 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.01, -0.139 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.015, -0.075 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.017, -0.011 ]
+            "radius": 0.04
+      link_arm_l1:
+          - "center": [ -0.0, -0.009, -0.12 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.009, -0.055 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.013, -0.003 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.009, -0.151 ]
+            "radius": 0.04
+      link_arm_l0:
+          - "center": [ -0.0, -0.0, -0.124 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.0, -0.078 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.0, -0.041 ]
+            "radius": 0.04
+          - "center": [ 0.0, 0.0, 0.0 ]
+            "radius": 0.04
+          - "center": [ 0.0, 0.068, -0.018 ]
+            "radius": 0.04
+          - "center": [ 0.046, 0.067, -0.02 ]
+            "radius": 0.04
+          - "center": [ 0.092, 0.064, -0.024 ]
+            "radius": 0.04
+          - "center": [ 0.136, 0.063, -0.027 ]
+            "radius": 0.04
+      link_yaw:
+          - "center": [ 0.061, 0.0, -0.016 ]
+            "radius": 0.04
+          - "center": [ 0.005, 0.0, -0.019 ]
+            "radius": 0.04
+      link_pitch:
+          - "center": [ 0.016, -0.0, -0.035 ]
+            "radius": 0.04
+      link_roll:
+          - "center": [ 0.0, -0.0, 0.062 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.033, 0.019 ]
+            "radius": 0.04
+          - "center": [ -0.0, -0.039, 0.073 ]
+            "radius": 0.04
+      link_gripper_camera:
+          - "center": [ -0.0, 0.006, -0.025 ]
+            "radius": 0.04
+      link_left_finger:
+          - "center": [ 0.0, 0.0, 0.0 ]
+            "radius": 0.03
+          - "center": [ -0.049, -0.024, -0.0 ]
+            "radius": 0.03
+          - "center": [ -0.097, -0.049, -0.0 ]
+            "radius": 0.03
+          - "center": [ -0.14, -0.069, -0.005 ]
+            "radius": 0.05
+      link_right_finger:
+          - "center": [ 0.0, 0.0, 0.0 ]
+            "radius": 0.03
+          - "center": [ -0.047, -0.019, -0.0 ]
+            "radius": 0.03
+          - "center": [ -0.097, -0.042, -0.0 ]
+            "radius": 0.03
+          - "center": [ -0.142, -0.055, -0.0 ]
+            "radius": 0.05
+
+    collision_sphere_buffer: 0.005
+    extra_collision_spheres: {}
+    self_collision_ignore: {
+      base_link: [link_mast, link_lift, link_arm_l2, link_arm_l1, link_arm_l0, link_yaw, link_pitch, link_roll, link_gripper_camera], #[link_ground, link_mast, link_arm_l4, link_arm_l3, link_arm_l2, link_arm_l1, link_arm_l0],
+      link_mast: [link_lift, link_arm_l2, link_arm_l1, link_arm_l0, link_yaw, link_pitch, link_roll, link_gripper_camera],
+      link_lift: [link_arm_l2, link_arm_l1, link_arm_l0, link_yaw, link_pitch, link_roll, link_gripper_camera],
+      link_arm_l2: [link_arm_l1, link_arm_l0, link_yaw, link_pitch, link_roll, link_gripper_camera],
+      link_arm_l1: [link_arm_l0, link_yaw, link_pitch, link_roll, link_gripper_camera],
+      link_arm_l0: [link_yaw, link_pitch, link_roll, link_gripper_camera],
+      link_yaw: [link_pitch, link_roll, link_gripper_camera],
+      link_pitch: [link_roll, link_gripper_camera],
+      link_roll: [link_gripper_camera, link_left_finger, link_right_finger],
+      link_gripper_camera:[link_left_finger, link_right_finger],
+      link_left_finger:[link_right_finger,]
+      }
+    self_collision_buffer: {'base_link': 0, "link_mast": 0,"link_lift": 0 ,"link_arm_l2": 0, "link_arm_l1": 0, "link_arm_l0": 0, "link_yaw": 0,"link_pitch": 0,"link_roll": 0, "link_left_finger": 0, "link_right_finger": 0
+
+      }
+
+    use_global_cumul: True
+    mesh_link_names: null
+
+    cspace:
+      joint_names: [
+        "base_z","joint_lift","joint_arm_l2","joint_arm_l1","joint_arm_l0","joint_yaw","joint_pitch","joint_roll"]
+      retract_config: [0,0,0.0,0.0,0,0,0,0]
+      null_space_weight: [1,1,1,1,1,1,1,1]
+      cspace_distance_weight: [1,1,1,1,1,1,1,1]
+      max_acceleration: 5.0 #15.0
+      max_jerk: 50.0

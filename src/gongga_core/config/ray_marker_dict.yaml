@@ -1,0 +1,45 @@
+# ray_robot的二维码字典，用于ROS2参数加载，根据标定需要后期在此配置文件加入其他marker
+
+/**:
+  ros__parameters:
+    aruco_marker_info:
+      '130':
+        length_mm: 70
+        use_rgb_only: False
+        name: 'base_left'
+        link: 'link_aruco_left_base'
+      '131':
+        length_mm: 70
+        use_rgb_only: False
+        name: 'base_right'
+        link: 'link_aruco_right_base'
+      '115':
+        length_mm: 80
+        use_rgb_only: False
+        name: 'calibration_board_1'
+        link: 'None'
+      '116':
+        length_mm: 80
+        use_rgb_only: False
+        name: 'calibration_board_2'
+        link: 'None'
+      '117':
+        length_mm: 80
+        use_rgb_only: False
+        name: 'calibration_board_3'
+        link: 'None'
+      '118':
+        length_mm: 80
+        use_rgb_only: False
+        name: 'calibration_board_4'
+        link: 'None'
+      '119':
+        length_mm: 50
+        use_rgb_only: False
+        name: 'grasp_target'
+        link: 'None'
+      'default':
+        length_mm: 24
+        use_rgb_only: False
+        name: 'unknown'
+        link: 'None'

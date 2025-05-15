@@ -1,0 +1,20 @@
+source install/setup.bash
+source install/setup_env.bash
+ros2 run sim_driver sim_driver
+
+source install/setup.bash
+ros2 run my_brain my_brain
+
+source install/setup.bash
+ros2 run grasp_object grasp_object_client
+
+source install/setup.bash
+ros2 run graspnet_generator graspnet_generator
+
+source install/setup.bash
+ros2 run gongga_core gongga_driver
+
+source install/setup.bash
+source install/setup_env.bash
+ros2 run motion_generator stable_motion_generator
+
